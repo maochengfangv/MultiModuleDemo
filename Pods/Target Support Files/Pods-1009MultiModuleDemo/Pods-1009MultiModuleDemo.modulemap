@@ -1,0 +1,6 @@
+framework module Pods_1009MultiModuleDemo {
+  umbrella header "Pods-1009MultiModuleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

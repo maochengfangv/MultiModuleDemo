@@ -1,0 +1,3 @@
+UnusedTool
+  own_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/UnusedTool.h, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/UnusedTool.m
+  external_hits: 0

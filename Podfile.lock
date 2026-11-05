@@ -1,0 +1,40 @@
+PODS:
+  - Adjust (4.38.4):
+    - Adjust/Core (= 4.38.4)
+  - Adjust/Core (4.38.4)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - GTMBase64 (1.0.1)
+
+DEPENDENCIES:
+  - Adjust (~> 4.38.4)
+  - AFNetworking (~> 4.0)
+  - GTMBase64
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AFNetworking
+    - GTMBase64
+
+SPEC CHECKSUMS:
+  Adjust: afda46df69f035fd216310fb85f399c40c61830a
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+
+PODFILE CHECKSUM: c1080de6ca3c269cb23e506adbf6e529d21d3da0
+
+COCOAPODS: 1.16.2

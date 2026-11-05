@@ -1,0 +1,15 @@
+BluetoothAudioMockSession
+  own_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BlueTooth/BluetoothAudioMockSession.h, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BlueTooth/BluetoothAudioMockSession.m
+  external_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BlueTooth/BluetoothServiceImpl.m
+
+NetworkRequest
+  own_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/NetWorking/NetworkRequest.h, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/NetWorking/NetworkRequest.m
+  external_hits: 3
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/NetWorking/NetworkService.h, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/NetWorking/NetworkServiceImpl.m, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/ViewController.m
+
+Target_Login
+  own_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/TargetActor/Target_Login.h, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/TargetActor/Target_Login.m
+  target_actions: Action_isLoggedIn:, Action_loginInfo:
+  target_usage_hits: 2
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/Navigator/Navigator.m, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/ViewController.m

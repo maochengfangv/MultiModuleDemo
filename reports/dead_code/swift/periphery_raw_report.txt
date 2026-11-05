@@ -1,0 +1,61 @@
+[version] 2.21.2
+[shell] /bin/zsh -lc env
+[shell] /usr/bin/env swift -version
+swift-driver version: 1.115.1 Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+Target: x86_64-apple-macosx14.0
+[shell] /usr/bin/env xcodebuild -version
+Xcode 16.2
+Build version 16C5032a
+[configuration:begin]
+disable_update_check: true
+schemes:
+- 1009MultiModuleDemo
+targets:
+- 1009MultiModuleDemo
+verbose: true
+workspace: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo.xcworkspace
+[configuration:end]
+* Inspecting project...
+[xcode:workspace] Loading /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo.xcworkspace
+[xcode:project] Loading /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo.xcodeproj
+[xcode:project] Loading /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/Pods/Pods.xcodeproj
+[shell] /bin/sh -c xcodebuild -workspace '/Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo.xcworkspace' -list -json
+* Building 1009MultiModuleDemo...
+[shell] /bin/sh -c xcodebuild -workspace '/Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo.xcworkspace' -scheme '1009MultiModuleDemo' -parallelizeTargets -derivedDataPath '/Users/maochengfang/Library/Caches/com.github.peripheryapp/DerivedData-44b7feb4-b4e00fa5-b4e00fa5' -quiet build CODE_SIGNING_ALLOWED="NO" ENABLE_BITCODE="NO" DEBUG_INFORMATION_FORMAT="dwarf" COMPILER_INDEX_STORE_ENABLE="YES" INDEX_ENABLE_DATA_STORE="YES"
+* Indexing...
+[index:swift] Reading /Users/maochengfang/Library/Caches/com.github.peripheryapp/DerivedData-44b7feb4-b4e00fa5-b4e00fa5/Index.noindex/DataStore
+[index:infoplist] /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/Info.plist (0.001s)
+* Analyzing...
+[mutator:run] UnusedImportMarker (0.000s)
+[mutator:run] AccessibilityCascader (0.001s)
+[mutator:run] ObjCAccessibleRetainer (0.000s)
+[mutator:run] RedundantExplicitPublicAccessibilityMarker (0.000s)
+[mutator:run] GenericClassAndStructConstructorReferenceBuilder (0.000s)
+[mutator:run] ExtensionReferenceBuilder (0.000s)
+[mutator:run] CodingKeyEnumReferenceBuilder (0.000s)
+[mutator:run] ProtocolExtensionReferenceBuilder (0.000s)
+[mutator:run] ProtocolConformanceReferenceBuilder (0.000s)
+[mutator:run] ExternalTypeProtocolConformanceReferenceRemover (0.000s)
+[mutator:run] ComplexPropertyAccessorReferenceBuilder (0.000s)
+[mutator:run] EnumCaseReferenceBuilder (0.000s)
+[mutator:run] DynamicMemberLookupReferenceBuilder (0.000s)
+[mutator:run] DefaultConstructorReferenceBuilder (0.000s)
+[mutator:run] StructImplicitInitializerReferenceBuilder (0.000s)
+[mutator:run] UnusedParameterRetainer (0.000s)
+[mutator:run] AssetReferenceRetainer (0.000s)
+[mutator:run] EntryPointAttributeRetainer (0.000s)
+[mutator:run] PubliclyAccessibleRetainer (0.000s)
+[mutator:run] XCTestRetainer (0.000s)
+[mutator:run] SwiftUIRetainer (0.000s)
+[mutator:run] StringInterpolationAppendInterpolationRetainer (0.000s)
+[mutator:run] PropertyWrapperRetainer (0.000s)
+[mutator:run] ResultBuilderRetainer (0.000s)
+[mutator:run] CapitalSelfFunctionCallRetainer (0.000s)
+[mutator:run] CodablePropertyRetainer (0.000s)
+[mutator:run] ExternalOverrideRetainer (0.000s)
+[mutator:run] AncestralReferenceEliminator (0.000s)
+[mutator:run] AssignOnlyPropertyReferenceEliminator (0.000s)
+[mutator:run] UsedDeclarationMarker (0.000s)
+[mutator:run] RedundantProtocolMarker (0.000s)
+
+* No unused code detected.

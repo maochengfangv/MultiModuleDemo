@@ -1,0 +1,34 @@
+BeaconBluetoothCoordinator
+  impls: BeaconBluetoothCoordinatorImpl
+  usage_hits: 2
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/AppDelegate.m, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/ViewController.m
+
+BluetoothService
+  impls: BluetoothServiceImpl
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BeaconBluetoothCoordinator/BeaconBluetoothCoordinatorImpl.m
+
+IBeaconService
+  impls: IBeaconServiceImpl
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BeaconBluetoothCoordinator/BeaconBluetoothCoordinatorImpl.m
+
+LoginService
+  impls: LoginServiceImpl
+  usage_hits: 3
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BeaconBluetoothCoordinator/BeaconBluetoothCoordinatorImpl.m, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/TargetActor/Target_Login.m, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/ViewController.m
+
+NetworkService
+  impls: NetworkServiceImpl
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/ViewController.m
+
+UnlockTelemetryService
+  impls: UnlockTelemetryServiceImpl
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BeaconBluetoothCoordinator/BeaconBluetoothCoordinatorImpl.m
+
+VehicleAccessService
+  impls: VehicleAccessServiceImpl
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/BeaconBluetoothCoordinator/BeaconBluetoothCoordinatorImpl.m

@@ -1,0 +1,14 @@
+Target_Login
+  actions: Action_isLoggedIn:, Action_loginInfo:
+  usage_hits: 2
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/Navigator/Navigator.m, /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/ViewController.m
+
+Target_application
+  actions: Action_json:
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/NetWorking/NetworkServiceImpl.m
+
+Target_text
+  actions: Action_html:, Action_json:, Action_plain:
+  usage_hits: 1
+  hit_files: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo/NetWorking/NetworkServiceImpl.m

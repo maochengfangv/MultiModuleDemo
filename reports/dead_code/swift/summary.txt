@@ -1,0 +1,12 @@
+project_root: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo
+scheme: 1009MultiModuleDemo
+target: 1009MultiModuleDemo
+swift_file_count: 1
+inventory: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/swift/swift_file_inventory.txt
+risk_hits: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/swift/swift_dynamic_risk_hits.txt
+periphery_status: exit_code_0
+raw_report: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/swift/periphery_raw_report.txt
+candidate_report: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/swift/swift_unused_candidates.txt
+fallback_report: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/swift/swift_top_level_candidates.txt
+warning: periphery output is a candidate set; review @objc/dynamic/selector-based call sites before deletion
+fallback_note: top-level fallback is heuristic-only and should be manually verified before deletion

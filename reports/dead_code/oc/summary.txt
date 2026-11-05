@@ -1,0 +1,13 @@
+project_root: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo
+app_root: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/1009MultiModuleDemo
+scanned_file_count: 49
+dynamic_risk_hits: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_dynamic_risk_hits.txt
+class_candidates_high_confidence: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_class_candidates_high_confidence.txt
+class_candidates_review: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_class_candidates_review.txt
+runtime_unreachable_classes: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_runtime_unreachable_classes.txt
+router_registered_services: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_router_registered_services.txt
+target_action_routes: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_target_action_routes.txt
+method_candidates: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_method_candidates.txt
+runtime_unreachable_methods: /Users/maochengfang/Documents/LLMProject/1009MultiModuleDemo/reports/dead_code/oc/oc_runtime_unreachable_methods.txt
+warning: Objective-C output is candidate-only; verify router/notification/KVC/KVO/system callback paths before deletion
+project_specific_protection: Router/Navigator/TargetActor/AppDelegate/SceneDelegate/main.m are excluded from direct candidate output
