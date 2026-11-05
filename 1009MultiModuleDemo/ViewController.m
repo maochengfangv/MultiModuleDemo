@@ -42,6 +42,14 @@
 //    [self testTargetAction];
 //    [self testScheme];
 }
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self testToutchView];
+}
+
+- (void)testToutchView {
+    [Navigator openURLString:@"multimoduledemo://Debug/touchProbe"];
+}
 
 - (void)testTargetAction {
     id result = [TargetActionMediator performTarget:@"Login" action:@"isLoggedIn" params:nil];
