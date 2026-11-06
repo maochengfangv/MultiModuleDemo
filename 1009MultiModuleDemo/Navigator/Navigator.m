@@ -19,7 +19,8 @@ NSString * const NavigatorDefaultScheme = @"multimoduledemo";
 + (NSSet<NSString *> *)allowedRoutes {
     return [NSSet setWithArray:@[
         @"Login/isLoggedIn",
-        @"Login/loginInfo"
+        @"Login/loginInfo",
+        @"Debug/touchProbe"
     ]];
 }
 
